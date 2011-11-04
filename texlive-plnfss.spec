@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/plain/plnfss
+# catalog-date 2008-05-21 10:21:02 +0200
+# catalog-license lppl
+# catalog-version 1.1
 Name:		texlive-plnfss
 Version:	1.1
 Release:	1
@@ -59,6 +65,7 @@ information.
 %doc %{_texmfdistdir}/doc/plain/plnfss/LPPL.txt
 %doc %{_texmfdistdir}/doc/plain/plnfss/plnfss.txt
 %doc %{_texmfdistdir}/doc/plain/plnfss/test-plnfss.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -69,3 +76,5 @@ information.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
