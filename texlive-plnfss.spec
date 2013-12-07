@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-plnfss
 Version:	1.1
-Release:	4
+Release:	5
 Summary:	Font selection for Plain TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/plnfss
