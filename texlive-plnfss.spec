@@ -1,6 +1,6 @@
 Name:		texlive-plnfss
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Font selection for Plain TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/plnfss
