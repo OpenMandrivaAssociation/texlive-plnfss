@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Font selection for Plain TeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/plain/plnfss
+URL:		https://www.ctan.org/tex-archive/macros/plain/plnfss
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/plnfss.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/plnfss.doc.r%{version}.tar.xz
